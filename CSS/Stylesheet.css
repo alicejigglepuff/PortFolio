@@ -1,16 +1,18 @@
 *{
 	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
 	margin: 0px;
+	font-size: 15px;
 }
 /**navigation**/
 nav{
-	background-color: #A8D5DB;
-	height: 600px;
-	color: #3A494C;
+	background-color: #167BC1;
+	height: 400px;
+	color: white;
+	border-bottom: #00C4AA 8px solid;
 }
 
 nav span{
-	font-size: 30px;
+	font-size: 2em;
 }
 nav ul{
 	float: right;
@@ -23,14 +25,10 @@ nav ul li{
 }
 nav a{
 	text-decoration: none;
-	color: #3A494C;
+	color: #AEC9DC;
 }
 nav a:hover{
-	color: #A8D5DB;
-	border: none;
-	padding: 18px;
-	background-color: #3A494C;
-	border-radius: 10px;
+	color: white;
 }
 #navbar{
 	margin: 0px auto;
@@ -39,27 +37,40 @@ nav a:hover{
 }
 #navcontent{
 	margin: 0px auto;
-	width: 80%;
+	width: 85%;
 	padding-top: 40px;
 }
-#navcontent h1{
-	display: inline-block;
-	width: 45%;
-	color: white;
-	font-weight: bold;
-	font-size: 40px;
-}
-#navcontent h1,
-#navcontent img{
-	vertical-align: middle;
-}
-#navhr{
+#navcontent h1, 
+#navcontent h2,
+#navcontent h3{
 	margin: 0px auto;
-	width: 15%;
-	padding-top: 50px;
+	width: 80%;
+	text-align: center;
+	margin-bottom: 35px;
+}
+#navcontent h1{
+	font-size: 4em;
+}
+#navcontent h2{
+	font-size: 2em;
 }
 
-/**header**/
+
+/**About**/
+
+#About{
+	height: 800px;
+	background-color: white;
+}
+#edu_pic,
+#pro_pic{
+	width: 45%;
+	height: auto;
+}
+#idea_pic{
+	width: 42%;
+	height: auto;
+}
 #headerwrap{
 	margin: 0px auto;
 	width: 80%;
@@ -73,10 +84,12 @@ nav a:hover{
 	width: 30%;
 	padding-left: 28px;
 	text-align: center;
+	vertical-align: middle;
 }
 .headerpic h2{
 	padding-top: 20px;
 	padding-bottom: 20px;
+	vertical-align: top;
 }
 .headerpic p{
 	font-size: 16px;
@@ -339,3 +352,5 @@ footer p{
 #Contact footer span{
 	color: yellow;
 }
+
+
